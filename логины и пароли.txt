@@ -1,0 +1,12 @@
+1)login: denis
+password: denis
+2)kolya
+kolya
+3)masha
+masha
+4)dasha
+dasha
+5)pomidor
+pomidor
+6)ogyrec
+ogyrec
