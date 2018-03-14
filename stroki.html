@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<tittle>JAVASCRIPT</tittle>
+</head>
+<body>
+<script>
+	function countChar(strok,ch) {
+		var string = String(strok);
+		var ch = String(ch);
+		var count = 0;
+		for(var i = 0; i < strok.length; i++)
+			if(strok.charAt(i) == ch)
+				count ++;
+		return count;	
+	}
+	console.log(countChar("BBCBDDBBBB", "C"));
+</script>
+</body>
+</html>  
