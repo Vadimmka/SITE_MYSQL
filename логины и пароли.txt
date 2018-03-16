@@ -1,12 +1,10 @@
-1)login: denis
-password: denis
-2)kolya
-kolya
-3)masha
-masha
-4)dasha
-dasha
-5)pomidor
-pomidor
-6)ogyrec
-ogyrec
+1)login: admin
+password: admin
+2)denis
+denis
+3)trees
+trees
+4)whale
+whale
+5)baza
+baza
